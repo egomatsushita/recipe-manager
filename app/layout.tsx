@@ -6,7 +6,7 @@ import SideNav from '@/app/ui/sidenav'
 const nunito = Nunito({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Gotah - Recipe Manager',
+  title: 'GoTah - Recipe Manager',
   description: 'Recipe manager',
 }
 

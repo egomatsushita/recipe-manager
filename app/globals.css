@@ -27,11 +27,11 @@ input[type='number']::-webkit-outer-spin-button {
 }
 
 .btn-primary {
-  @apply btn border-secondary-500 text-secondary-500 hover:bg-secondary-500 hover:text-white;
+  @apply btn border-primary text-primary hover:bg-primary hover:text-white transition ease-in-out duration-500;
 }
 
 .btn-secondary {
-  @apply btn border-gray-700 text-gray-700 hover:bg-gray-700 hover:text-white;
+  @apply btn border-gray-700 text-gray-700 hover:bg-gray-700 hover:text-white hover:shadow-inner transform hover:scale-110 hover:opacity-50 transition ease-out duration-300;
 }
 
 .small-caps {
