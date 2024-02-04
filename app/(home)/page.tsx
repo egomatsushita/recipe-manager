@@ -1,5 +1,4 @@
-import { recipes } from '@/app/api/recipes'
-import RecipeCard from '@/app/ui/RecipeCard'
+import Recipes from '@/components/Recipes'
 
 export default function Home() {
   return (
@@ -8,9 +7,7 @@ export default function Home() {
         <span>Latest Recipes</span>
       </div>
       <div className="grid lg:grid-cols-2 xl:grid-cols-3 gap-8">
-        {recipes.map((recipe) => (
-          <RecipeCard key={recipe.id} data={recipe} />
-        ))}
+        <Recipes />
       </div>
       <div className="text-2xl md:text-3xl font-bold text-primary my-8">
         <span>Most Popular</span>

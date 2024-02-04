@@ -4,7 +4,7 @@
  * @param href - The link href to compare with the pathname.
  * @returns True if the border should be primary, false otherwise.
  */
-export default function isBorderPrimary(pathname: string, href: string) {
+export function isBorderPrimary(pathname: string, href: string) {
   const isRecipeLink = href.startsWith('/recipes')
   const isRecipePathname = pathname.startsWith('/recipes')
 

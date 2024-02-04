@@ -1,20 +1,20 @@
 import type { Metadata } from 'next'
 import { Nunito } from 'next/font/google'
 import '@/app/globals.css'
-import SideNav from '@/app/ui/SideNav'
+import SideNav from '@/components/SideNav'
 
 const nunito = Nunito({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'GoTah - Recipe Manager',
-  description: 'Recipe manager',
+  description: 'Effortlessly organize recipes with our intuitive app.',
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
       <body className={`${nunito.className} antialiased`}>
-        <div className="grid sm:grid-cols-3 h-full">
+        <div className="grid sm:grid-cols-3 min-h-full">
           <div className="col-span-1 flex flex-col items-end mt-4">
             <SideNav />
           </div>

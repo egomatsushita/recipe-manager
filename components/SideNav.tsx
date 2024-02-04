@@ -1,4 +1,5 @@
-import NavLinks from '@/app/ui/NavLinks'
+import NavLinks from '@/components/NavLinks'
+
 export default function SideNav() {
   return (
     <nav className="flex flex-col items-end">
