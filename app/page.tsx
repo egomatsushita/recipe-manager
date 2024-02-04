@@ -1,4 +1,4 @@
-import Recipes from '@/components/Recipes'
+import Recipes from '@/app/_components/Recipes'
 
 export default function Home() {
   return (

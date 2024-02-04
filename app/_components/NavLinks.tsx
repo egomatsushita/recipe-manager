@@ -4,8 +4,8 @@ import Link from 'next/link'
 import clsx from 'clsx'
 import { usePathname } from 'next/navigation'
 
-import { isBorderPrimary } from '@/lib/utils'
-import { HomeIcon, FolderIcon, QuestionMarkCircleIcon, EnvelopeIcon } from '@/lib/icons'
+import { isBorderPrimary } from '@/app/_lib/utils'
+import { HomeIcon, FolderIcon, QuestionMarkCircleIcon, EnvelopeIcon } from '@/app/_lib/icons'
 
 export default function NavLinks() {
   const pathname = usePathname()
