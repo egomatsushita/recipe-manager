@@ -1,5 +1,7 @@
 import Link from 'next/link'
 
+import { ChevronLeftIcon } from '@/lib/icons'
+
 export default function RecipePage({ params }: { params: { id: number } }) {
   return (
     <div>
@@ -12,16 +14,7 @@ export default function RecipePage({ params }: { params: { id: number } }) {
       <div className="mt-8 text-center">
         <Link href="/recipes">
           <span className="btn-secondary">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              strokeWidth={1.5}
-              stroke="currentColor"
-              className="w-6 h-6 inline-block mr-1"
-            >
-              <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" />
-            </svg>
+            <span className="inline-block mr-1 align-middle">{ChevronLeftIcon}</span>
             Back to Recipes
           </span>
         </Link>
