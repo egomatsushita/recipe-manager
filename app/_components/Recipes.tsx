@@ -1,6 +1,6 @@
-import { recipes } from '@/lib/placeholder-data'
-import Card from '@/components/Card'
-import { ClockIcon } from '@/lib/icons'
+import { recipes } from '@/app/_lib/placeholder-data'
+import Card from '@/app/_components/Card'
+import { ClockIcon } from '@/app/_lib/icons'
 
 export default function Recipes() {
   return (

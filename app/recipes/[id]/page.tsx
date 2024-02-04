@@ -1,6 +1,6 @@
 import Link from 'next/link'
 
-import { ChevronLeftIcon } from '@/lib/icons'
+import { ChevronLeftIcon } from '@/app/_lib/icons'
 
 export default function RecipePage({ params }: { params: { id: number } }) {
   return (

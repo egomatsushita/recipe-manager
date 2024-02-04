@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 import { Nunito } from 'next/font/google'
 import '@/app/globals.css'
-import SideNav from '@/components/SideNav'
+import SideNav from '@/app/_components/SideNav'
 
 const nunito = Nunito({ subsets: ['latin'] })
 
